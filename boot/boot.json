@@ -1,0 +1,29 @@
+{
+  "info" : {
+    "output" : "boot.img",
+    "json" : "boot.json",
+    "headerVersion" : 3,
+    "headerSize" : 1580,
+    "pageSize" : 4096,
+    "cmdline" : "",
+    "osVersion" : "11.0.0",
+    "osPatchLevel" : "2021-02-00",
+    "imageSize" : 134217728,
+    "signatureSize" : 0
+  },
+  "kernel" : {
+    "file" : "build/unzip_boot/kernel",
+    "position" : 4096,
+    "size" : 14612387
+  },
+  "ramdisk" : {
+    "file" : "build/unzip_boot/ramdisk.img.gz",
+    "position" : 14618624,
+    "size" : 19527219
+  },
+  "bootSignature" : {
+    "file" : "",
+    "position" : 0,
+    "size" : 0
+  }
+}

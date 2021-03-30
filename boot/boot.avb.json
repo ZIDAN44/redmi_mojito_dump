@@ -1,0 +1,78 @@
+{
+  "header" : {
+    "required_libavb_version_major" : 1,
+    "required_libavb_version_minor" : 0,
+    "authentication_data_block_size" : 0,
+    "auxiliary_data_block_size" : 640,
+    "algorithm_type" : 0,
+    "hash_offset" : 0,
+    "hash_size" : 0,
+    "signature_offset" : 0,
+    "signature_size" : 0,
+    "public_key_offset" : 592,
+    "public_key_size" : 0,
+    "public_key_metadata_offset" : 592,
+    "public_key_metadata_size" : 0,
+    "descriptors_offset" : 0,
+    "descriptors_size" : 592,
+    "rollback_index" : 0,
+    "flags" : 0,
+    "release_string" : "avbtool 1.1.0"
+  },
+  "authBlob" : null,
+  "auxBlob" : {
+    "pubkey" : null,
+    "pubkeyMeta" : null,
+    "propertyDescriptors" : [ {
+      "tag" : 0,
+      "num_bytes_following" : 128,
+      "sequence" : 2,
+      "key" : "com.android.build.boot.fingerprint",
+      "value" : "Redmi/mojito/mojito:11/RKQ1.201022.002/V12.0.4.0.RKGMIXM:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 56,
+      "sequence" : 3,
+      "key" : "com.android.build.boot.os_version",
+      "value" : "11"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 4,
+      "key" : "com.android.build.boot.security_patch",
+      "value" : "2021-02-01"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 5,
+      "key" : "com.android.build.boot.security_patch",
+      "value" : "2021-02-01"
+    } ],
+    "hashTreeDescriptors" : [ ],
+    "hashDescriptors" : [ {
+      "tag" : 2,
+      "num_bytes_following" : 184,
+      "sequence" : 1,
+      "flagsInterpretation" : "0:A/B system",
+      "flags" : 0,
+      "partition_name" : "boot",
+      "hash_algorithm" : "sha256",
+      "image_size" : 34148352,
+      "salt" : "qcfvsD1kgvbyuWQV+URGw80hQLFKlHfCiccIc2A9MyU=",
+      "digest" : "Q5OMLA+CbAXFCUq4kUvY8TAWt4fYPtUFRb0//Y2msaY=",
+      "partition_name_len" : 4,
+      "salt_len" : 32,
+      "digest_len" : 32
+    } ],
+    "kernelCmdlineDescriptors" : [ ],
+    "chainPartitionDescriptors" : [ ],
+    "unknownDescriptors" : [ ]
+  },
+  "footer" : {
+    "versionMajor" : 1,
+    "versionMinor" : 0,
+    "originalImageSize" : 34148352,
+    "vbMetaOffset" : 34148352,
+    "vbMetaSize" : 896
+  }
+}
