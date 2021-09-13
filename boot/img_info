@@ -1,0 +1,15 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=4096
+kernel_size=14611797
+ramdisk_size=19627832
+base_addr=0x00000000
+kernel_offset=0x00008000
+ramdisk_offset=
+tags_offset=
+dtbo_offset=0x00000000
+os_version=11.0.0
+os_patch_level=2021:9
+cmd_line=''
+board=""
+format=gzip
